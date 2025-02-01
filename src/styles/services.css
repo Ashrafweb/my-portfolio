@@ -1,0 +1,25 @@
+.service__wrapper {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service__header {
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(179, 179, 179, 0.707);
+}
+
+@media screen and (max-width: 500px) {
+  .service__header {
+    margin: 1rem;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(179, 179, 179, 0.707);
+  }
+}

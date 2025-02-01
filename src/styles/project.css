@@ -1,0 +1,102 @@
+.project__container {
+  background-color: #111;
+  color: whitesmoke;
+  max-width: 100vw;
+  width: 90vw;
+  padding: 3rem 2rem;
+  min-height: 100vh;
+}
+
+.project__box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.project__menu {
+  position: static;
+  height: max-content;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menu__item {
+  margin-top: 10px;
+}
+
+.pro__btn {
+  background-color: transparent;
+  color: #fff;
+  width: 7rem;
+  font-size: 1.1rem;
+  padding: 7px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.pro__btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+.active {
+  background-color: rgb(48, 208, 128);
+  color: #000;
+}
+
+.image__overlay {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.118);
+  justify-content: center;
+  align-items: center;
+}
+.project__url__btn {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+.project__url__btn:hover {
+  color: rgb(255, 28, 66);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0rem 3rem;
+  margin: auto;
+}
+
+.project {
+  padding: 0rem 0.5rem;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.project img {
+  width: 240px;
+  height: 160px;
+}
+
+.project__title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 300px;
+  cursor: pointer;
+}
+.project__title:hover {
+  color: gray;
+}

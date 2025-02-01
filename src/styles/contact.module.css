@@ -1,0 +1,33 @@
+.big__text {
+  font-size: 2.3rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3rem;
+  width: 60vw;
+  padding: 2rem;
+}
+
+.gmailLogo {
+  color: rgb(167, 10, 10);
+  transition: 0.2s all ease-in-out;
+}
+
+.gmailLogo:hover {
+  color: rgb(206, 8, 8);
+}
+
+.fiverrLogo {
+  color: rgb(5, 235, 5);
+}
+
+.fbLogo {
+  color: rgb(0, 174, 255);
+}
+
+.waLogo {
+  color: rgb(0, 181, 0);
+}

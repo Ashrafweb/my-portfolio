@@ -14,6 +14,7 @@ function Layout({ children }) {
 
             <main className={styles.main}>
                 {children}
+                <div color='red' > Test</div>
             </main>
 
         </>

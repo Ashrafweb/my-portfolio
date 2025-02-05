@@ -1,4 +1,4 @@
-.container{
+/* .container{
     width: 200px;
     height: 180px;
     background-color: rgb(0, 0, 0);
@@ -31,4 +31,79 @@
 .text__container > h5{
  font-size: 1.2rem;
  text-transform: uppercase;
+} */
+
+.container {
+  background-color: rgb(0, 0, 0);
+  margin: 2rem;
+  /* Responsive width and height */
+  width: clamp(250px, 30vw, 350px); /* Adjust min, ideal, and max widths */
+  height: auto; /* Height adjusts to content */
+  /* OR fixed height with overflow if you want to keep it */
+  /* height: 180px;
+      overflow: hidden; */
+}
+
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Occupy full container height */
+  padding: 1rem; /* Add some padding inside the container */
+}
+
+.service__icon {
+  font-size: clamp(3rem, 5vw, 4rem); /* Responsive icon size */
+  padding: 10px;
+  margin-bottom: 1rem; /* Add space below icon */
+}
+
+.text__container {
+  text-align: center;
+  width: 90%; /* Occupy most of the container width */
+  margin: 0 auto; /* Center the text container */
+}
+
+.text__container > p {
+  padding: 2px 4px;
+  font-size: clamp(12px, 1.5vw, 14px); /* Responsive font size */
+  line-height: 1.4; /* Improve readability */
+}
+
+.text__container > h5 {
+  font-size: clamp(1rem, 2vw, 1.2rem); /* Responsive font size */
+  text-transform: uppercase;
+  margin-bottom: 0.5rem; /* Add space below heading */
+}
+
+/* Media Queries for smaller screens (optional but recommended) */
+@media (max-width: 768px) {
+  /* Example breakpoint */
+  .container {
+    width: 90%; /* Full width on smaller screens */
+    margin: 1rem auto; /* Center the container */
+  }
+
+  .content__wrapper {
+    padding: 0.5rem;
+  }
+
+  .service__icon {
+    font-size: 3rem; /* Smaller icon on small screens */
+  }
+
+  .text__container {
+    width: 100%; /* Full width text on small screens */
+  }
+}
+
+/* Additional styling (optional) */
+.container {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.content__wrapper {
+  color: white; /* Text color inside the dark container */
 }

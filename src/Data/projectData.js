@@ -4,7 +4,7 @@ import InstantPickupImg from "../../public/assets/images/instantpickup.png"
 import climaWeatherImg from "../../public/assets/images/clima.png"
 import NetflixCloneImg from "../../public/assets/images/netflix-clone.png"
 import WhatsappCloneImg from "../../public/assets/images/whatsapp.webp"
-import AxaroMernImg from "../../public/assets/images/axaro-mern-ecom.jpeg"
+import AxaroMernImg from "../../public/assets/images/axaro-mern-ecom.png"
 
 export const projectData = [
     {

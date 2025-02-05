@@ -18,10 +18,10 @@ function HeroSection() {
                         </div>
                         <div className="btn__wrapper">
                             <Link href={"mailto:" + email} passHref={true}>
-                                <button className="header__contact__btn">Email me</button>
+                                <button className="header__contact__btn email_btn">Email me</button>
                             </Link>
                             <Link href='/about' passHref={true}>
-                                <button className="header__contact__btn">About</button>
+                                <button className="header__contact__btn about_btn">About</button>
                             </Link>
                         </div>
                     </div>
@@ -32,11 +32,17 @@ function HeroSection() {
                     </div>
                 </div>
                 <div className="social__container">
-                    <SiFacebook className="fblogo" />
-                    <SiGithub className="githublogo" />
-                    <SiDribbble className="dribblelogo" />
-                    <SiLinkedin className="linkedinlogo" />
-                    <SiFiverr className="fiverrlogo" />
+                    <Link passHref={true} href='https://www.facebook.com/ashraf.uddin.75839'>
+                        <SiFacebook className="fblogo" />
+                    </Link>
+                    <Link passHref={true} href='https://github.com/Ashrafweb'>
+                        <SiGithub className="githublogo" />
+                    </Link>
+                    <Link passHref={true} href='https://www.linkedin.com/in/mdashraf-uddin'>
+                        <SiLinkedin className="linkedinlogo" /></Link>
+                    <Link passHref={true} href='https://www.fiverr.com/s/R7x80BV'>
+                        <SiFiverr className="fiverrlogo" />
+                    </Link>
                 </div>
 
             </div>

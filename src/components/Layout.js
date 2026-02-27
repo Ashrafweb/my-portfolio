@@ -1,23 +1,21 @@
-import React from 'react'
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-import Header from './header'
+import React from "react";
+import Head from "next/head";
+import Header from "./header";
+
 function Layout({ children }) {
-    return (
-        <>
+	return (
+		<>
+			<Head>
+				<title>Ashraf Uddin</title>
+				<meta name='description' content='Ashraf' />
+				<link rel='icon' href='/pro_img.jpg' />
+			</Head>
 
-            <Head>
-                <title>Ashraf Uddin</title>
-                <meta name="description" content="Ashraf" />
-                <link rel="icon" href="/pro_img.jpg" />
-            </Head>
-
-            <main className={styles.main}>
-                {children}
-            </main>
-
-        </>
-    )
+			<main className='min-h-screen px-6 md:px-12 lg:px-24 py-8'>
+				{children}
+			</main>
+		</>
+	);
 }
 
-export default Layout
+export default Layout;
